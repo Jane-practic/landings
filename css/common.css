@@ -173,10 +173,7 @@ label {
 }
 
 .decor {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    max-width: 150px;
+    max-width: 100px;
     padding-bottom: 15px;
     align-items: center;
 }
