@@ -13,7 +13,7 @@
     background-color: aquamarine;
 }
 
-.headline {
+#headline {
     background-image: url(../img/matrix.png);
     background-size: cover;
     width: auto;
@@ -44,7 +44,6 @@
     display: inline;
     flex-direction: row;
     justify-content: space-around;
-    
     padding-left: 50px;
 }
 
@@ -171,7 +170,7 @@ label {
     width: 120px;
 }
 
-.pages {
+#pages {
     margin-top: 15px;
     margin-right: 15px;
     margin-left: 15px;
@@ -215,7 +214,7 @@ p {
     margin-top: 20px;
 }
 
-.cards {
+#cards {
     display: flex;
     align-content:space-between;
     flex-direction: row;
@@ -277,7 +276,7 @@ ol {
     margin-left: 33%;
 }
 
-.floor {
+#floor {
     background-image: url(../img/matrix.png);
     background-size: cover;
     width: auto;
@@ -290,14 +289,10 @@ ol {
 }
 
 .floor-list-bar {
-    color: rgba(219, 244, 246, 0.936);
-    font-size: 25px;
     margin-top: 15px;
     padding: 0px 15px 0px 15px;
     list-style: none;
     justify-content:right;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .sign {
@@ -305,6 +300,17 @@ ol {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 15px;
     margin: 0px 0px 0px 15px;
-    
+}
+
+.list-content {
+    color:rgba(219, 244, 246, 0.936);
+    font-size: 23px;
+    margin-top: 15px;
+    padding: 0px 15px 0px 15px;
+    list-style: none;
+    justify-content:right;
+    cursor: pointer;
+    text-decoration-line: none;
 }
