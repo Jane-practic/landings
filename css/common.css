@@ -45,7 +45,7 @@ img {
     padding-bottom: 30%;
 }
 
-.nav-bar-links li{
+.nav-bar-links li {
     display: inline;
     flex-direction: row;
     justify-content: space-around;
@@ -63,7 +63,7 @@ img {
     align-content: flex-start;
 }
 
-.slogan{
+.slogan {
     font-weight: 700;
     color: rgba(219, 244, 246, 0.936);
     text-align: center;
@@ -124,14 +124,14 @@ img {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-self:end;
 }
 
 .choice-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    align-content: center;
-    padding-left: 25%;
+    
+    
 }
 
 h3 {
@@ -181,7 +181,12 @@ label {
 .decor {
     max-width: 100px;
     padding-bottom: 15px;
-    align-items: center;
+}
+
+.image {
+    justify-self:start;
+    padding-left: 20%;
+    padding-bottom: 20px;
 }
 
 #pages {
@@ -234,6 +239,7 @@ p {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 7%
 }
 
 .product {
@@ -345,5 +351,11 @@ ol {
 @media (min-width: 400px){
     .product > neo {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px){
+    .choice {
+        width: 100%;
     }
 }
